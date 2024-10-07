@@ -1,0 +1,22 @@
+.favorite-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-size: 20px !important;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #C6C6C6 !important;
+    transition: color .5s ease;
+}
+.favorite-btn:hover {
+    color: #EE4136 !important;
+    cursor: pointer;
+}
+.favorite-btn[data-status="1"] {
+    color: #EE4136 !important;
+}
+.favorite-btn[data-status="1"]:hover {
+    color: #C6C6C6 !important;
+}

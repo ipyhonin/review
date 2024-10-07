@@ -1,0 +1,1 @@
+.favorite-btn{display:flex;justify-content:center;align-items:center;width:20px;height:20px;font-size:20px!important;border:0;background-color:transparent;transition:color .5s ease}.favorite-btn:hover{cursor:pointer}.favorite-btn:hover,.favorite-btn[data-status="1"]{color:#ee4136!important}.favorite-btn,.favorite-btn[data-status="1"]:hover{color:#c6c6c6!important}
